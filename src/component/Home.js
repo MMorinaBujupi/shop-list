@@ -1,9 +1,11 @@
 import React from "react";
-import Product from "./Products";
+import Products from "./Products";
+import Product from "./Product";
+
 
 const Home =() =>{
     return (<>
-    
+    <div className="hero">
     <div className="card text-bg-white ">
   <img src="bg1.jpg" className="card-img" alt="..."/>
   <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -13,8 +15,8 @@ const Home =() =>{
     
     <p className="card-text lead fs-2">CHECK OUT ALL THE TRENDS</p>
   </div>
-</div>
-<Product/>
+</div></div>
+<Products/>
 </div>
 
     </>);
